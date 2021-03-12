@@ -133,8 +133,6 @@ If you’ve never used Heroku before, visit their website and create an account.
 `brew tap heroku/brew && brew install heroku`
 `heroku login`
 
-Now that the cli is installed, we’ll create a Heroku app and push the site online. The Heroku CLI should provide a URL that you can visit to view your site online. In my case, the URL is https://protected-beach-47576.herokuapp.com/. 
-
 `heroku create`
 
 Add the appropriate buildpacks (make sure to add python first, then nodejs, as follows):
